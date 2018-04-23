@@ -6,16 +6,37 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <link rel="stylesheet" href="style.css" />
+    <meta name="format" content="telephone=no">
 </head>
 <body>
     <h1>input Element</h1>
     <p>버튼 클릭시 체크박스 리스트 레이어가 보여졌다가 다시 클릭하면 레이어가 사라짐.</p>
     
     <section class="section">
-        <button class="">BUTTON</button>
-
-        <div>
-            
+        <div class="checklist">
+            <button onclick="toggleList()" class="btn_toggle">Button</button>
+            <div id="myDropdown" class="list-content">
+                <a herf="" class="wrap_list">
+                    <input class="check_box" type="checkbox" id="check">
+                    <i></i>
+                    <label for="check">item list</label>
+                </a>
+                <a herf="" class="wrap_list">
+                    <input class="check_box" type="checkbox" id="check">
+                    <i></i>
+                    <label for="check">item list</label>
+                </a>
+                <a herf="" class="wrap_list">
+                    <input class="check_box" type="checkbox" id="check">
+                    <i></i>
+                    <label for="check">item list</label>
+                </a>
+                <a herf="" class="wrap_list">
+                    <input class="check_box" type="checkbox" id="check">
+                    <i></i>
+                    <label for="check">item list</label>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -23,5 +44,12 @@
         <h2 class="footer_tit">team name : UILAB</h2>
         <a class="footer_tel" href="tel:000-000-0000">MOBILE : 000-000-0000</a>
     </footer>
+
+    <script>
+        /* Toggle Button */
+        function toggleList() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+    </script>
 </body>
 </html>
