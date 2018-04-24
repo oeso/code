@@ -20,6 +20,10 @@ body {min-width:320px;-webkit-text-size-adjust:none}
 
 
 .section {min-height:500px}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 589c22a6ca22dcc6c2a895baf237c8c7476d418a
 .footer {min-height:200px; padding:30px 0; text-align:center; background:#eee}
 .footer_tit {padding-bottom:20px; font-size:20px}
 .footer_tel {display:block; color:slateblue}
@@ -31,6 +35,10 @@ body {min-width:320px;-webkit-text-size-adjust:none}
 .list-content a {display: block; padding: 10px 16px; margin: 7px; background-color: #e3e3e3; color: black; text-decoration: none;}
 .show {display:block}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 589c22a6ca22dcc6c2a895baf237c8c7476d418a
 /*CheckBox*/
 .wrap_list {position:relative; margin-top:10px; text-align:left; cursor:pointer; overflow:hidden;}
 .warp_list:after{content:""; display: block; clear:both; }
