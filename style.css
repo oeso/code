@@ -26,7 +26,7 @@ body {min-width:320px;-webkit-text-size-adjust:none}
 
 .btn_toggle { padding:5px; font-size:16px; background-color: #eeeeee}
 
-.popup{position: relative; top:10px; left:13px; width: 150px; padding:10px; background-color:#fff;}
+.popup{position: relative; top:10px; left:13px; width: 180px; padding:10px; background-color:#fff;}
 .popup:after {content: ""; position: absolute; top: -10px; left: 13px; margin-left: -5px; border-width: 5px; border-style: solid; border-color: transparent transparent #fff transparent}
 .popup_list{padding:10px; margin-bottom: 5px; background-color: #999999;}
 .popup_list:last-child{margin-bottom:0;}
@@ -34,7 +34,7 @@ body {min-width:320px;-webkit-text-size-adjust:none}
 .popup_list .checkbox_icon {float:left; position:relative; top:0; left:-5px; display:block; width:22px; height:22px; background:url(psd/checkbox.jpg)no-repeat left top}
 .popup_list .check_box{position:relative; top:0px; left:-90px; opacity:0; cursor:pointer; z-index: 5}
 .popup_list .check_box:checked+i {background-position:left bottom;}
-.list_label{float:left; margin-left:5px; cursor:pointer; font-size:16px; color:#000; font-style: italic; font-weight: 700}
+.list_label{float:left; width: 100px; margin-left:5px; cursor:pointer; font-size:16px; color:#000; font-style: italic; font-weight: 700; overflow:hidden; text-overflow: ellipsis; white-space: nowrap}
 
 
 
