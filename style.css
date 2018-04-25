@@ -19,33 +19,23 @@ html,body {height:100%; line-height:1.2; font-size:13px}
 body {min-width:320px;-webkit-text-size-adjust:none}
 
 
-.section {min-height:500px}
-<<<<<<< HEAD
-=======
-
->>>>>>> 589c22a6ca22dcc6c2a895baf237c8c7476d418a
+.section {min-height:500px; opacity: 0.5; background-color: #000}
 .footer {min-height:200px; padding:30px 0; text-align:center; background:#eee}
 .footer_tit {padding-bottom:20px; font-size:20px}
 .footer_tel {display:block; color:slateblue}
 
-/*Toggle klist*/
 .btn_toggle { padding:5px; font-size:16px; background-color: #eeeeee}
-.checklist {position: relative; display: inline-block}
-.list-content {display: none; position: absolute; background-color: #fff; min-width: 160px; border: 1px #000 solid; z-index: 1}
-.list-content a {display: block; padding: 10px 16px; margin: 7px; background-color: #e3e3e3; color: black; text-decoration: none;}
-.show {display:block}
 
-<<<<<<< HEAD
-=======
+.popup{position: relative; top:10px; left:13px; width: 150px; padding:10px; background-color:#fff;}
+.popup:after {content: ""; position: absolute; top: -10px; left: 13px; margin-left: -5px; border-width: 5px; border-style: solid; border-color: transparent transparent #fff transparent}
+.popup_list{padding:10px; margin-bottom: 5px; background-color: #999999;}
+.popup_list:last-child{margin-bottom:0;}
+.popup_list:after{content:""; display: block; clear:both;}
+.popup_list .checkbox_icon {float:left; position:relative; top:0; left:-5px; display:block; width:22px; height:22px; background:url(psd/checkbox.jpg)no-repeat left top}
+.popup_list .check_box{position:relative; top:0px; left:-90px; opacity:0; cursor:pointer; z-index: 5}
+.popup_list .check_box:checked+i {background-position:left bottom;}
+.list_label{float:left; margin-left:5px; cursor:pointer; font-size:16px; color:#000; font-style: italic; font-weight: 700}
 
->>>>>>> 589c22a6ca22dcc6c2a895baf237c8c7476d418a
-/*CheckBox*/
-.wrap_list {position:relative; margin-top:10px; text-align:left; cursor:pointer; overflow:hidden;}
-.warp_list:after{content:""; display: block; clear:both; }
-.wrap_list input.check_box {position:absolute; top:10px; left:10px; opacity:0; cursor:pointer; z-index:5;}
-.wrap_list i {float:left; position:relative; top:0; left:-5px; display:block; width:22px; height:22px; background:url(psd/checkbox.jpg)no-repeat left top; z-index:3}
-.wrap_list label {float:left; margin-left:5px; cursor:pointer; font-size:16px; font-style: italic; font-weight: 700}
-.wrap_list input.check_box:checked+i {background-position:left bottom;}
 
 
 
